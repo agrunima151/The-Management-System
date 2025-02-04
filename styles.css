@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the pages */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #00579c;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #00579c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #004480;
+}
+
+/* Alerts */
+.alert {
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #f44336;
+    color: white;
+    border-radius: 4px;
+}
+
+.alert.success {
+    background-color: #4CAF50;
+}
+
+.alert.info {
+    background-color: #2196F3;
+}
+
+/* Login / Register page */
+.login-register-page {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.login-register-page h2 {
+    text-align: center;
+    color: #003366;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Dashboard */
+.dashboard {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.dashboard h3 {
+    color: #003366;
+}
+
+.dashboard p {
+    font-size: 18px;
+}
